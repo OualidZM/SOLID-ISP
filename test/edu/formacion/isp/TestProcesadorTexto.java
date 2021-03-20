@@ -1,8 +1,12 @@
-package org.formacion.isp;
+package edu.formacion.isp;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import edu.pingpong.isp.Correcto;
+import edu.pingpong.isp.Idioma;
+import edu.pingpong.isp.ProcesadorTexto;
 
 
 public class TestProcesadorTexto {
