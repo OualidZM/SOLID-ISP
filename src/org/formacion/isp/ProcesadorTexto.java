@@ -17,12 +17,5 @@ public class ProcesadorTexto {
 		return texto.stream().collect(Collectors.joining(" "));
 	}
 	
-	public boolean correcto (Idioma idioma) {
-		for (String palabra: texto) {
-			if (! idioma.diccionario.contains(palabra.toLowerCase())) {
-				return false;
-			}
-		}
-		return true;
-	}
+
 }
